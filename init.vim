@@ -10,7 +10,10 @@ let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', '
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'jiangmiao/auto-pairs'
+ Plug 'mxw/vim-jsx'
+  Plug 'pangloss/vim-javascript'
 call plug#end()
+
  
 "Config Section
 if (has("termguicolors"))
